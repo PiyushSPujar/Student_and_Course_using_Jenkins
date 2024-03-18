@@ -15,14 +15,14 @@ public class Student{
         // Retrieve the courses and marks for which students scored less than 40
         Map<String, Integer> PiyushCoursesMarksLessThan40 = student01.getCoursesMarksLessThan40();
         Map<String, Integer> AnushCoursesMarksLessThan40 = student02.getCoursesMarksLessThan40();
-        // Display courses and marks less than 40 for Kapil
+      
         System.out.println("Courses and Marks Less Than 40 for Piyush if any : ");
         for (Map.Entry<String, Integer> entry : PiyushCoursesMarksLessThan40.entrySet()) {
                 System.out.println(entry.getKey() + " - " + entry.getValue());    
         }
         System.out.println("End");
         
-        // Display courses and marks less than 40 for Chinnu
+    
         System.out.println("\nCourses and Marks Less Than 40 for Anush if any : ");
         for (Map.Entry<String, Integer> entry : AnushCoursesMarksLessThan40.entrySet()) {
                 System.out.println(entry.getKey() + " - " + entry.getValue());
